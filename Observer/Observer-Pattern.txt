@@ -1,0 +1,7 @@
+﻿Observer Design Pattern falls under Behavioral Pattern of Gang of Four (GOF) Design Patterns in .Net.
+
+What is Observer Design Pattern?
+This pattern is used when there is one to many relationship between objects such as if one object is modified, its dependent objects are to be notified automatically.
+
+This pattern is allows a single object, known as the subject, 
+to publish changes to its state and other observer objects that depend upon the subject are automatically notified of any changes to the subject's state.

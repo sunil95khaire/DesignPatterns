@@ -1,0 +1,23 @@
+﻿Command pattern falls under Behavioral Pattern of Gang of Four (GOF) Design Patterns in .Net. 
+The command pattern is commonly used in the menu systems of many applications such as Editor, IDE etc. 
+In this article, I would like share what is command pattern and how is it work?
+
+What is Command Pattern
+In this pattern, a request is wrapped under an object as a command and passed to invoker object. 
+Invoker object pass the command to the appropriate object which can handle it and that object executes the command. This handles the request in traditional ways like as queuing and callbacks.
+
+This pattern is commonly used in the menu systems of many applications such as Editor, IDE etc.
+
+Who is what?
+The classes, interfaces and objects in the above class diagram can be identified as follows:
+
+Switch- Invoker class.
+ICommand - Command interface.
+FlipUpCommand and FlipDownCommand - Concrete Command classes.
+Light - Receiver class.
+
+When to use it?
+Need to implement callback functionalities.
+Need to support Redo and Undo functionality for commands.
+Sending requests to different receivers which can handle it in different ways.
+Need for auditing and logging of all changes via commands.

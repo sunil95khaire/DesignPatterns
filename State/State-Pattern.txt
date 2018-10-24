@@ -1,0 +1,8 @@
+﻿State Design Pattern falls under Behavioral Pattern of Gang of Four (GOF) Design Patterns in .Net.
+
+What is State Design Pattern?
+This pattern is used when there is one to many relationship between objects such as if one object is modified, 
+its dependent objects are to be notified automatically.This pattern is used to alter the behavior of an object when it’s internal state changes. 
+In this pattern, an object is created which represent various states and a context object whose behavior varies as it's state object changes.
+
+This pattern seems as a dynamic version of the Strategy pattern.

@@ -1,0 +1,22 @@
+﻿Composite pattern falls under Structural Pattern of Gang of Four (GOF) Design Patterns in .Net. 
+Composite Pattern is used to arrange structured hierarchies. In this article, I would like share what is composite pattern and how is it work?
+
+What is Composite Pattern?
+Composite pattern is used to separate an abstraction from its implementation so that both can be modified independently.
+
+Composite pattern is used when we need to treat a group of objects and a single object in the same way. 
+Composite pattern composes objects in term of a tree structure to represent part as well as whole hierarchies.
+
+This pattern creates a class contains group of its own objects. This class provides ways to modify its group of same objects.
+
+Who is what?
+The classes, interfaces and objects in the above class diagram can be identified as follows:
+
+IEmployed - Component Interface.
+Employee- Composite Class.
+Contractor- Leaf Class.
+
+When to use it?
+Hierarchical representations of objects are required.
+A single object and a group of objects should be treated in the same way.
+The Composite pattern is used when data is organized in a tree structure (for example directories in a computer).

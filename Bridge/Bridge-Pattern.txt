@@ -1,0 +1,33 @@
+﻿Bridge pattern falls under Structural Pattern of Gang of Four (GOF) Design Patterns in .Net. 
+All we know, Inheritance is a way to specify different implementations of an abstraction. 
+But in this way, implementations are tightly bound to the abstraction and can not be modified independently. 
+The Bridge pattern provides an alternative to inheritance when there are more than one version of an abstraction. 
+In this article, I would like share what is bridge pattern and how is it work?
+
+What is Bridge Pattern
+Bridge pattern is used to separate an abstraction from its implementation so that both can be modified independently.
+
+This pattern involves an interface which acts as a bridge between the abstraction class and implementer classes 
+and also makes the functionality of implementer class independent from the abstraction class. 
+Both types of classes can be modified without affecting to each other.
+
+Who is what?
+The classes, interfaces and objects in the above class diagram can be identified as follows:
+
+Message - Abstraction Class.
+SystemMessage & UserMessage- Redefined Abstraction Classes.
+IMessageSender- Bridge Interface.
+EmailSender, WebServiceSender & MSMQ Sender- ConcreteImplementation class which implements the IMessageSender interface.
+
+When to use it?
+Abstractions and implementations should be modified independently.
+
+Changes in the implementation of an abstraction should have no impact on clients.
+
+The Bridge pattern is used when a new version of a software or system is brought out, 
+but the older version of the software still running for its existing client. 
+There is no need to change the client code, but the client need to choose which version he wants to use.
+
+Note
+Bridge pattern has nearly the same structure as the Adapter Pattern. 
+But it is used when designing new systems instead of the Adapter pattern which is used with already existing systems.
