@@ -1,0 +1,12 @@
+﻿Template Method Design Pattern falls under Behavioral Pattern of Gang of Four (GOF) Design Patterns in .Net. 
+
+What is Template Method Design pattern?
+This pattern is used to define the basic steps of an algorithm and allow the implementation of the individual steps to be changed. 
+This pattern looks similar to the strategy design pattern. 
+The main difference is the ability to change the parts of an algorithm rather than replacing an entire algorithm.
+
+In Template pattern, an abstract class defined the template method and this method includes the steps which are implemented by the subclasses.
+
+When to use it?
+An abstract view of an algorithm is required, but implementation varies according to the subclasses.
+Common behaviors of subclasses can be used to make to a common class.

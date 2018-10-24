@@ -1,0 +1,20 @@
+﻿Proxy pattern falls under Structural Pattern of Gang of Four (GOF) Design Patterns in .Net. 
+The proxy design pattern is used to provide a surrogate object, which references to other object. 
+In this article, I would like share what is proxy pattern and how is it work?
+
+What is Proxy Pattern
+The proxy design pattern is used to provide a surrogate object, which references to other object.
+
+Proxy pattern involves a class, called proxy class, which represents functionality of another class.
+
+There are various kinds of proxies, some of them are as follows:
+
+Virtual proxies : Hand over the creation of an object to another object
+Authentication proxies : Checks the access permissions for a request
+Remote proxies : Encodes requests and send them across a network
+Smart proxies : Change requests before sending them across a network
+
+When to use it?
+Objects need to be created on demand means when their operations are requested.
+Access control for the original object is required.
+Allow to access a remote object by using a local object(it will refer to a remote object).

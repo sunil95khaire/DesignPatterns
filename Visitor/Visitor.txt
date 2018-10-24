@@ -1,0 +1,5 @@
+﻿Visitor Design Pattern falls under Behavioral Pattern of Gang of Four (GOF) Design Patterns in .Net. 
+
+What is Visitor Design pattern?
+This pattern is used to create and perform new operations onto a set of objects without changing the object structure or classes. 
+This pattern enables loose coupling and addition of new operations without changing the existing structure.
