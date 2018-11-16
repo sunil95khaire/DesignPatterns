@@ -1,6 +1,7 @@
 ﻿namespace AbstractFactoryMethod
 {
     // Added comment
+    // Added new comment
     public class VehicleClient
     {
         IBike bike;
